@@ -102,3 +102,10 @@
 	margin-top: 8px;
 	margin-left: 30px;
 }
+
+.errorIcon {
+	position: absolute;
+	top: 50%;
+	right: 25%;
+	transform: translate(-50%, -50%);
+}

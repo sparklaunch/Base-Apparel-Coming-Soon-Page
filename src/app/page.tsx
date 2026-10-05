@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import background from "../shared/assets/images/desktop-background.svg";
 import desktopHero from "../shared/assets/images/desktop-hero.jpg";
+import error from "../shared/assets/images/error.svg";
 import logo from "../shared/assets/images/logo.svg";
 import styles from "./Home.module.css";
 
@@ -55,6 +56,13 @@ export default function Home() {
 									)
 							}}
 						/>
+						{emailError && (
+							<Image
+								src={error}
+								alt="Error"
+								className={styles.errorIcon}
+							/>
+						)}
 						<button
 							type="button"
 							className={styles.emailButton}
