@@ -90,4 +90,9 @@
 	border-radius: 50px;
 	font-weight: 100;
 	cursor: pointer;
+	transition: box-shadow 0.2s;
+}
+
+.emailButton:hover {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
