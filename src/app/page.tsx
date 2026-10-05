@@ -48,6 +48,12 @@ export default function Home() {
 							onChange={(event) =>
 								setEmail(event.currentTarget.value)
 							}
+							style={{
+								borderColor:
+									emailError ? "var(--color-error)" : (
+										"var(--color-text)"
+									)
+							}}
 						/>
 						<button
 							type="button"
