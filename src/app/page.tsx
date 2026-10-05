@@ -9,6 +9,9 @@ import styles from "./Home.module.css";
 
 export default function Home() {
 	const [email, setEmail] = useState("");
+	const clickHandler = () => {
+		setEmail("");
+	};
 	return (
 		<main className={styles.main}>
 			<section className={styles.left}>
@@ -35,7 +38,11 @@ export default function Home() {
 								setEmail(event.currentTarget.value)
 							}
 						/>
-						<button type="button" className={styles.emailButton}>
+						<button
+							type="button"
+							className={styles.emailButton}
+							onClick={clickHandler}
+						>
 							&gt;
 						</button>
 					</div>
