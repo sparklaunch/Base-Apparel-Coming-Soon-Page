@@ -143,10 +143,24 @@
 
 	.background {
 		width: 100%;
-		height: auto;
+		height: 100%;
 	}
 
 	.body {
 		position: relative;
+		padding: 0 30px 80px 30px;
+	}
+
+	.header {
+		text-align: center;
+	}
+
+	.content {
+		text-align: center;
+		width: 100%;
+	}
+
+	.email {
+		max-width: 100%;
 	}
 }
