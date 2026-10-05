@@ -20,6 +20,12 @@ export default function Home() {
 						new fashion store. Add your email below to stay
 						up-to-date with announcements and our launch deals.
 					</p>
+					<input
+						type="email"
+						name="email"
+						className={styles.emailInput}
+						placeholder="Email Address"
+					/>
 				</div>
 			</section>
 			<section className={styles.right}>
