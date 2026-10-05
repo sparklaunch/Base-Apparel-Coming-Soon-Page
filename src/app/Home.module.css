@@ -110,3 +110,33 @@
 	right: 25%;
 	transform: translate(-50%, -50%);
 }
+
+.mobileHero {
+	display: none;
+}
+
+@media (max-width: 1000px) {
+	.main {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.mobileHero {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.desktopHero {
+		display: none;
+	}
+
+	.background {
+		width: 100%;
+		height: auto;
+	}
+
+	.body {
+		position: relative;
+	}
+}

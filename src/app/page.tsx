@@ -6,6 +6,7 @@ import background from "../shared/assets/images/desktop-background.svg";
 import desktopHero from "../shared/assets/images/desktop-hero.jpg";
 import error from "../shared/assets/images/error.svg";
 import logo from "../shared/assets/images/logo.svg";
+import mobileHero from "../shared/assets/images/mobile-hero.jpg";
 import styles from "./Home.module.css";
 
 export default function Home() {
@@ -84,6 +85,7 @@ export default function Home() {
 					alt=""
 					className={styles.desktopHero}
 				/>
+				<Image src={mobileHero} alt="" className={styles.mobileHero} />
 			</section>
 		</main>
 	);
