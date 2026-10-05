@@ -11,6 +11,10 @@ export default function Home() {
 				<Image src={background} alt="" className={styles.background} />
 				<div className={styles.body}>
 					<Image src={logo} alt="Logo" />
+					<h1 className={styles.header}>
+						WE&apos;RE{" "}
+						<span className={styles.heading}>COMING SOON</span>
+					</h1>
 				</div>
 			</section>
 			<section className={styles.right}>

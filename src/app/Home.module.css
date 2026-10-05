@@ -29,4 +29,19 @@
 	flex-direction: column;
 	position: absolute;
 	padding: 50px 150px;
+	width: 300px;
+}
+
+.header {
+	margin-top: 100px;
+	font-size: 64px;
+	font-weight: 100;
+	color: var(--color-text);
+	letter-spacing: 8px;
+	line-height: 1.2;
+}
+
+.heading {
+	font-weight: 500;
+	color: var(--color-accent);
 }
