@@ -31,7 +31,7 @@ export default function Home() {
 			<section className={styles.left}>
 				<Image src={background} alt="" className={styles.background} />
 				<div className={styles.body}>
-					<Image src={logo} alt="Logo" />
+					<Image src={logo} alt="Logo" className={styles.desktopLogo} />
 					<h1 className={styles.header}>
 						WE&apos;RE{" "}
 						<span className={styles.heading}>COMING SOON</span>
@@ -81,6 +81,7 @@ export default function Home() {
 				</div>
 			</section>
 			<section className={styles.right}>
+				<Image src={logo} alt="Logo" className={styles.mobileLogo} />
 				<Image
 					src={desktopHero}
 					alt=""
