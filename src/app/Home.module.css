@@ -37,11 +37,19 @@
 	font-size: 64px;
 	font-weight: 100;
 	color: var(--color-text);
-	letter-spacing: 8px;
+	letter-spacing: 10px;
 	line-height: 1.2;
 }
 
 .heading {
 	font-weight: 500;
 	color: var(--color-accent);
+}
+
+.content {
+	font-weight: 200;
+	color: var(--color-text);
+	width: 500px;
+	line-height: 1.5;
+	margin-top: 20px;
 }

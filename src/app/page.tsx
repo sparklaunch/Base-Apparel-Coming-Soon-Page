@@ -15,6 +15,11 @@ export default function Home() {
 						WE&apos;RE{" "}
 						<span className={styles.heading}>COMING SOON</span>
 					</h1>
+					<p className={styles.content}>
+						Hello fellow shoppers! We&apos;re currently building our
+						new fashion store. Add your email below to stay
+						up-to-date with announcements and our launch deals.
+					</p>
 				</div>
 			</section>
 			<section className={styles.right}>
