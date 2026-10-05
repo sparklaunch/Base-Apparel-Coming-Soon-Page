@@ -1,6 +1,7 @@
 import Image from "next/image";
 import background from "../shared/assets/images/desktop-background.svg";
 import desktopHero from "../shared/assets/images/desktop-hero.jpg";
+import logo from "../shared/assets/images/logo.svg";
 import styles from "./Home.module.css";
 
 export default function Home() {
@@ -8,6 +9,9 @@ export default function Home() {
 		<main className={styles.main}>
 			<section className={styles.left}>
 				<Image src={background} alt="" className={styles.background} />
+				<div className={styles.body}>
+					<Image src={logo} alt="Logo" />
+				</div>
 			</section>
 			<section className={styles.right}>
 				<Image
