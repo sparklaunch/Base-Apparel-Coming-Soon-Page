@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import arrow from "../shared/assets/images/arrow.svg";
 import background from "../shared/assets/images/desktop-background.svg";
 import desktopHero from "../shared/assets/images/desktop-hero.jpg";
 import error from "../shared/assets/images/error.svg";
@@ -69,7 +70,7 @@ export default function Home() {
 							className={styles.emailButton}
 							onClick={clickHandler}
 						>
-							&gt;
+							<Image src={arrow} alt="" />
 						</button>
 					</div>
 					{emailError && (

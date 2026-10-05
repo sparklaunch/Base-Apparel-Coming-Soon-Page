@@ -118,7 +118,7 @@
 @media (max-width: 1000px) {
 	.main {
 		display: flex;
-		flex-direction: column;
+		flex-direction: column-reverse;
 	}
 
 	.mobileHero {
