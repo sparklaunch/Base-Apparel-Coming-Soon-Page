@@ -2,8 +2,8 @@
 	--color-background: rgb(255, 246, 247);
 	--color-text: rgb(190, 145, 145);
 	--color-accent: rgb(54, 47, 48);
-	--color-button-left-color: rgb(245, 175, 175);
-	--color-button-right-color: rgb(240, 135, 135);
+	--color-button-left: rgb(245, 175, 175);
+	--color-button-right: rgb(240, 135, 135);
 }
 
 * {

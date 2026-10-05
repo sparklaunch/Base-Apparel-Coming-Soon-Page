@@ -20,12 +20,17 @@ export default function Home() {
 						new fashion store. Add your email below to stay
 						up-to-date with announcements and our launch deals.
 					</p>
-					<input
-						type="email"
-						name="email"
-						className={styles.emailInput}
-						placeholder="Email Address"
-					/>
+					<div className={styles.email}>
+						<input
+							type="email"
+							name="email"
+							className={styles.emailInput}
+							placeholder="Email Address"
+						/>
+						<button type="button" className={styles.emailButton}>
+							&gt;
+						</button>
+					</div>
 				</div>
 			</section>
 			<section className={styles.right}>
