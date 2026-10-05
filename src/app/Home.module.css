@@ -96,3 +96,9 @@
 .emailButton:hover {
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+.emailError {
+	color: var(--color-error);
+	margin-top: 8px;
+	margin-left: 30px;
+}

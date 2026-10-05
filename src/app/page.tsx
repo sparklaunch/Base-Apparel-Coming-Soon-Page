@@ -9,7 +9,18 @@ import styles from "./Home.module.css";
 
 export default function Home() {
 	const [email, setEmail] = useState("");
+	const [emailError, setEmailError] = useState(false);
 	const clickHandler = () => {
+		const isEmailValid = email
+			.trim()
+			.match(
+				/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+			);
+		if (!isEmailValid) {
+			setEmailError(true);
+			return;
+		}
+		setEmailError(false);
 		setEmail("");
 	};
 	return (
@@ -46,6 +57,11 @@ export default function Home() {
 							&gt;
 						</button>
 					</div>
+					{emailError && (
+						<p className={styles.emailError}>
+							Please provide a valid email
+						</p>
+					)}
 				</div>
 			</section>
 			<section className={styles.right}>
